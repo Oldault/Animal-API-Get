@@ -55,3 +55,29 @@ dogBtn.addEventListener('click', () => {
         img.setAttribute('src', result)
     })
 });
+
+
+const foxBtn = document.getElementById('foxBtn');
+const FoxUrlToFetch = 'https://randomfox.ca/floof/'
+
+async function getFoxImage() {
+    try {
+        const response = await fetch (FoxUrlToFetch);
+
+        if(response.ok) {
+            const json = await response.json();
+            const jsonImage = json.image;
+            return jsonImage;
+        }
+    } catch(error) {
+        console.log(error);
+    }
+}
+
+foxBtn.addEventListener('click', () => {
+    getFoxImage()
+    .then(result => {
+        img.style.display = 'flex';
+        img.setAttribute('src', result)
+    })
+});

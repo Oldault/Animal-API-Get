@@ -6,10 +6,19 @@
 
 body {
     text-align: center;
+    background-color: #faf0e6;
 }
 
 h1 {
     font-size: 60px;
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 5px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    display: inline-block;
+    padding: 8px 16px;
+    
 }
 
 header{
@@ -17,27 +26,48 @@ header{
     margin-top: 32px;
 }
 
-.cat-div {
+#image {
     text-align: center;
-    padding: 0px 30%;
+    
 }
 
 .buttons {
     padding: 32px 0px;
 }
 
-#catBtn, #dogBtn {
-    text-align: center;
-    font-size: 24px;
-    padding: 4px;
-    z-index: 2;
-    margin: 0 24px;
-}
-
  img {
     text-align: center;
-    width: 100%;
-    height: auto;
+    margin: 0 auto;
+    max-width: 60%;
     display: none;
     z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
  }
+
+.button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  margin: 0 24px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
