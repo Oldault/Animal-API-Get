@@ -1,4 +1,4 @@
-<h1>You have two Options...</h1>
+<h1>You have three Options...</h1>
 
 <h2>You either:</h2>
 <ul>
