@@ -4,6 +4,7 @@
 <ul>
 <li>Get a Cat pitcure, or</li>
 <li>Get a Dog picture</li>
+<li><strong>NEW:</strong>Fox pictures!!!</li>
 </ul>
 
 
