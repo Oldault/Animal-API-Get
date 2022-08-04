@@ -6,16 +6,16 @@
 
 body {
     text-align: center;
-    background-color: #faf0e6;
+    background-color: #FFF2F2;
 }
 
 h1 {
     font-size: 60px;
-    background-color: #fbeee0;
-    border: 2px solid #422800;
+    background-color: #FAD4D4;
+    border: 2px solid #EF9F9F;
     border-radius: 5px;
-    box-shadow: #422800 4px 4px 0 0;
-    color: #422800;
+    box-shadow: #EF9F9F 4px 4px 0 0;
+    color: black;
     display: inline-block;
     padding: 8px 16px;
     
@@ -27,8 +27,8 @@ header{
 }
 
 #image {
-    text-align: center;
-    
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .buttons {
@@ -45,17 +45,18 @@ header{
  }
 
 .button {
-  background-color: #fbeee0;
-  border: 2px solid #422800;
+  background-color: #FAD4D4;
+  border: 2px solid #EF9F9F;
   border-radius: 30px;
-  box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
+  box-shadow: #EF9F9F 4px 4px 0 0;
+  color: black;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
   font-size: 18px;
   padding: 0 18px;
   margin: 0 24px;
+  margin-bottom: 18px;
   line-height: 50px;
   text-align: center;
   text-decoration: none;
@@ -64,10 +65,16 @@ header{
 }
 
 .button:hover {
-  background-color: #fff;
+  background-color: #FFF2F2;
 }
 
 .button:active {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
+}
+
+@media only screen and (max-width: 700px) {
+    header{
+      margin-top: 0px;
+  }
 }
